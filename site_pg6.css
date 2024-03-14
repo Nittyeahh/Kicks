@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+#logo-nav-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: #eacdec;
+    /* margin-bottom: 10px; */
+}
+#logo-div{
+    width: 20%;
+    min-height: 50px;
+    background-color: #eacdec;
+    float: left;
+    color: #db509c;
+    font-weight: 900;
+    text-shadow: #4e2b3e;
+    text-shadow: 2px;
+    padding: 48px;
+    text-align: left;/* 
+    margin-bottom: 10px; */
+}
+#home-div{
+    width: 12%;
+    min-height: 50px;
+    background-color: #eacdec;
+    float: left;
+    padding: 50px;
+    text-align: left;/* 
+    margin-bottom: 10px; */
+    
+    
+}
+#collection-div{
+    width: 12%;
+    min-height: 50px;
+    background-color: #eacdec;
+    float: left;
+    padding: 50px;
+    text-align: left;
+}
+#female-div{
+    width: 15%;
+    min-height: 50px;
+    background-color: #eacdec;
+    float: left;
+    padding: 50px;
+    text-align: left;/* 
+    margin-bottom: 10px; */
+}
+#male-div{
+    width: 12%;
+    min-height: 50px;
+    background-color: #eacdec;
+    float: left;
+    padding: 50px;
+    text-align: left;/* 
+    margin-bottom: 10px; */
+}
+#kids-div{
+    width: 12%;
+    min-height: 50px;
+    background-color: #eacdec;
+    float: left;
+    padding: 50px;
+    text-align: left;
+    color: #c9438d;
+    text-decoration: underline;
+}
+#shop-now-div{
+    width: 15%;
+    min-height: 30px;
+    background-color: #eacdec;
+    float: right;
+    padding: 40px;
+    text-align: left;
+}
+#shop-now-div button{
+    background-color: #db509c;
+    padding: 6px;
+    border: 0px;
+    size: 30px;
+    margin-bottom: 10px;
+}
+#Main-div{
+    width: 100%;
+    min-height: 10px;
+    /* background-color: gray; */
+    padding: 10px;
+    margin-left: 5% ;
+    margin-right: 3%;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box{
+    width: 20%;
+    min-height: 300px;
+    float: left;
+    border-radius: 2px;
+}
+.box img{
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    
+    
+}
+#Main-div .box:nth-child(2)
+{
+    margin-left: 3%;
+   /*  margin-right: 3%; */
+}
+#Main-div .box:nth-child(3)
+{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.h1{
+    width: 100%;
+    padding: 20px;
+    /* margin: 5px; */
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#item{
+    background-color: #ebe2ec;
+    min-height: 500px;
+    width: 100%;
+}
+#item img{
+    width: 400px;
+    height: 500px;
+    margin-left: 180px;
+    padding: 20px;
+}
+#empty{
+    width: 100%;
+    height: 70px;
+}
+.gym{
+    width: 20%;
+    min-height: 450px;
+    float: left;
+    border-radius: 2px;
+    margin-left: 13%;
+}
+.gym img{
+    width: 500px;
+    min-height: 450px;
+    max-height: 500px;
+    background-size: cover;
+    margin-top: 10%;
+    margin-right: 10%;
+}
+#Main-div .gym:nth-child(2)
+{
+    margin-left: 20%;
+}
+#add button{
+    float: left;
+    width: 45%;
+    margin-top: 30px;
+    height: 40px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 40px;
+    border: 0px;
+    background-color: #c9438d;
+    margin-bottom: 20px;
+}
+.box p{
+    float: right;
+    padding: 0%;
+    margin: 0%;
+}
+.box h3{
+    float: left;
+    padding: 0%;
+    margin: 0%;
+}
+#content{
+    float: right;
+    width: 55%;
+    padding: 40px;
+    margin-top: 60px;
+}
+#Main-div{
+    width: 100%;
+    min-height: 10px;
+    /* background-color: gray; */
+    padding: 10px;
+    margin-left: 5% ;
+    margin-right: 3%;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.box{
+    width: 28%;
+    height: 600px;
+    float: left;
+    border-radius: 2px;
+}
+.box img{
+    width: 100%;
+    min-height: 500px;
+    background-size: cover;
+    
+    
+}
+#Main-div .box:nth-child(2)
+{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#Footer-div{
+    width: 100%;
+    min-height: 50px;
+    background-color: #f6daf8;
+    padding: 50px;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+table,tr{
+    border: 2px ghostwhite ;
+    border-collapse: collapse;
+    /* margin: 2px; */
+    padding: 30px;
+    width: 1200px;
+   /*  transform: translate(5%, 5%); */
+    line-height:28px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+th,td{
+    border: 2px;
+    border-collapse: collapse;
+    text-align: left;
+}
+#Contact{
+    width: 100%;
+    min-height: 50px;
+    /* background-color: #eacdec; */
+    padding: 50px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 50;
+    margin-bottom: 10px;
+}
